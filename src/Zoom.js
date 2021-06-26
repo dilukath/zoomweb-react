@@ -17,7 +17,6 @@ const Zoom = (props) => {
   };
   
   const initiateMeeting = () => {
-    debugger
     ZoomMtg.init({
       leaveUrl:process.env.REACT_APP_LEAVE_URL,
       isSupportAV: true,
